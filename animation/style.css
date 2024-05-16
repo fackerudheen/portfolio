@@ -1,0 +1,39 @@
+.first_div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: example1;
+    animation-duration: 10s;
+
+}
+@keyframes example1{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+    0%{margin-left: 200px;}
+    25%{margin-right: 200px;}
+    50%{margin-bottom: 200px;}
+    75%{margin-top: 100px;}
+}
+.second_div{
+    margin-top: 200px;
+    margin-right: 200px;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    animation-name: example2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example2{
+    0%{background-color: yellow;}
+    25%{background-color: red;}
+    50%{background-color: green;}
+    75%{background-color: orange;}
+    100%{background-color: yellow;}
+    
+}
